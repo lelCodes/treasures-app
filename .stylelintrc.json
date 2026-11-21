@@ -1,4 +1,4 @@
 {
-  "extends": "@lvucodes/ui/stylelint",
+  "extends": "@lelcodes/ui/stylelint",
   "ignoreFiles": ["**/dist/**", "**/coverage/**", "**/node_modules/**"]
 }

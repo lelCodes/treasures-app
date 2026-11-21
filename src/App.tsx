@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import "./App.css";
-import { BackLink, ThemeSwitcher, useTheme } from "@lvucodes/ui";
+import { BackLink, ThemeSwitcher, useTheme } from "@lelcodes/ui";
 import { centerGrid, emptyGrid } from "./grid";
 import { SavedMaps, useSavedMaps } from "./saved-maps";
 import { InputGrid, useMapPaint } from "./map-input";

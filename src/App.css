@@ -15,7 +15,7 @@
 }
 
 /* The About sidebar is styled in about/about.css; the back link and the theme
-   switcher (.theme-bar / .theme-btn) are styled by the shared @lvucodes/ui
+   switcher (.theme-bar / .theme-btn) are styled by the shared @lelcodes/ui
    package. The shared .pill skin those controls wear lives in index.css. */
 
 .hint {

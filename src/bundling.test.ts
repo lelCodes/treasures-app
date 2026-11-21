@@ -15,8 +15,8 @@ import pkg from "../package.json";
 // the App import so its rules win the equal-specificity cascade on source order,
 // and the `sideEffects` allowlist stays (it strips src/dev/).
 describe("theme stylesheet bundling", () => {
-  it("imports the @lvucodes/ui palette before the App import", () => {
-    const themeIdx = mainSource.indexOf('"@lvucodes/ui/theme.css"');
+  it("imports the @lelcodes/ui palette before the App import", () => {
+    const themeIdx = mainSource.indexOf('"@lelcodes/ui/theme.css"');
     const appIdx = mainSource.indexOf('from "./App.tsx"');
     expect(themeIdx).toBeGreaterThanOrEqual(0);
     expect(appIdx).toBeGreaterThanOrEqual(0);

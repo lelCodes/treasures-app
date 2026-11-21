@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { defineSeSmoke, SE_VIEWPORT } from "@lvucodes/ui/se-smoke";
+import { defineSeSmoke, SE_VIEWPORT } from "@lelcodes/ui/se-smoke";
 
 // The site builds with base "./" (a relative-path static bundle that also runs
 // over file://), so `vite preview` serves it at the server root.

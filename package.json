@@ -25,9 +25,9 @@
     "verify": "npm run lint && npm run format:check && tsc -b && npm run test:coverage && npm run build:singlefile && grep -q -- '--item-0:' dist/assets/*.css",
     "prepare": "git config core.hooksPath .githooks"
   },
-  "prettier": "@lvucodes/ui/prettier",
+  "prettier": "@lelcodes/ui/prettier",
   "dependencies": {
-    "@lvucodes/ui": "^0.1.3",
+    "@lelcodes/ui": "^0.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
