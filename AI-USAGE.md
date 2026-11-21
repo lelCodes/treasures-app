@@ -1,12 +1,12 @@
 # AI Usage
 
-**100% AI, 0% human**, by lines added since the baseline commit.
+**98.8% AI, 1.2% human**, by lines added since the baseline commit.
 
 | Measure | Lines added |
 |---|---|
-| **By Claude** | 640 |
-| **By the author** | 0 |
-| **Total since baseline** | 640 |
+| **By Claude** | 655 |
+| **By the author** | 8 |
+| **Total since baseline** | 663 |
 
 Baseline commit `de90f51` (2026-10-05). Regenerate with `node scripts/ai-attribution.mjs`.
 
@@ -16,8 +16,8 @@ Baseline commit `de90f51` (2026-10-05). Regenerate with `node scripts/ai-attribu
 |---|---|---|---|
 | `fix` | 5 | 294 | 0 |
 | `release` | 1 | 236 | 0 |
-| `unlabeled` | 1 | 69 | 0 |
-| `chore` | 1 | 23 | 0 |
+| `unlabeled` | 2 | 69 | 8 |
+| `chore` | 2 | 38 | 0 |
 | `ci` | 1 | 18 | 0 |
 
 ## Measurement Scope
@@ -45,4 +45,4 @@ Baseline commit `de90f51` (2026-10-05). Regenerate with `node scripts/ai-attribu
 - `src/calculator/fixtures/**`
 - `scripts/ai-attribution.mjs`
 
-_Generated 2026-11-13 15:56:26Z.
+_Generated 2026-11-21 22:46:36Z.
