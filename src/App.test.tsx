@@ -142,17 +142,17 @@ describe("footer copyright", () => {
 
     const license = screen.getByRole("link", { name: "GNU GPL v3" });
     expect(license.getAttribute("href")).toBe(
-      "https://github.com/lvuCodes/treasures-app/blob/main/LICENSE",
+      "https://github.com/lelCodes/treasures-app/blob/main/LICENSE",
     );
-    expect(screen.getByRole("link", { name: "lvuCodes" }).getAttribute("href")).toBe(
-      "https://github.com/lvuCodes",
+    expect(screen.getByRole("link", { name: "lelCodes" }).getAttribute("href")).toBe(
+      "https://github.com/lelCodes",
     );
   });
 
   it("links the project's own repository in a new tab, named for the repo", () => {
     render(<App />);
     const repo = screen.getByRole("link", { name: "treasures-app on GitHub" });
-    expect(repo.getAttribute("href")).toBe("https://github.com/lvuCodes/treasures-app");
+    expect(repo.getAttribute("href")).toBe("https://github.com/lelCodes/treasures-app");
     expect(repo.getAttribute("target")).toBe("_blank");
     expect(repo.getAttribute("rel")).toBe("noreferrer noopener");
   });

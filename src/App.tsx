@@ -412,12 +412,12 @@ function App() {
 
         <p className="credits-copyright">
           © 2026{" "}
-          <a href="https://github.com/lvuCodes" target="_blank" rel="noreferrer noopener">
-            lvuCodes
+          <a href="https://github.com/lelCodes" target="_blank" rel="noreferrer noopener">
+            lelCodes
           </a>
           . Free software under the{" "}
           <a
-            href="https://github.com/lvuCodes/treasures-app/blob/main/LICENSE"
+            href="https://github.com/lelCodes/treasures-app/blob/main/LICENSE"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -425,7 +425,7 @@ function App() {
           </a>
           .{" "}
           <a
-            href="https://github.com/lvuCodes/treasures-app"
+            href="https://github.com/lelCodes/treasures-app"
             target="_blank"
             rel="noreferrer noopener"
           >

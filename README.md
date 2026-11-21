@@ -42,7 +42,7 @@ npm run test:coverage  # Run the suite with coverage thresholds enforced
 npm run lint           # ESLint
 ```
 
-CI (`.github/workflows/deploy.yml`) runs lint, `tsc -b`, the coverage-gated suite, and `build:singlefile` on every push and pull request. Pushes to `main` that clear those checks build the site and deploy it to GitHub Pages at [lvucodes.github.io/treasures-app](https://lvucodes.github.io/treasures-app/); pull requests are validated but not deployed.
+CI (`.github/workflows/deploy.yml`) runs lint, `tsc -b`, the coverage-gated suite, and `build:singlefile` on every push and pull request. Pushes to `main` that clear those checks build the site and deploy it to GitHub Pages at [lelcodes.github.io/treasures-app](https://lelcodes.github.io/treasures-app/); pull requests are validated but not deployed.
 
 ## Project Structure
 
@@ -94,7 +94,7 @@ See [AI-USAGE.md](AI-USAGE.md).
 
 ## License
 
-Copyright (C) 2026 lvuCodes. Free software licensed under the [GNU General Public License v3.0](LICENSE) — you may use, study, share, and modify it, provided derivative works carry the same license and preserve this notice.
+Copyright (C) 2026 lelCodes. Free software licensed under the [GNU General Public License v3.0](LICENSE) — you may use, study, share, and modify it, provided derivative works carry the same license and preserve this notice.
 
 ## Sources
 

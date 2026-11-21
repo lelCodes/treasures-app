@@ -1,6 +1,6 @@
 /*
  * Treasures Dig Optimizer — a helper for the Monopoly GO treasure-map minigames.
- * Copyright (C) 2026 lvuCodes
+ * Copyright (C) 2026 lelCodes
  *
  * This program is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software

@@ -10,4 +10,4 @@ jobs:
     permissions:
       contents: read
       issues: write
-    uses: lvuCodes/terminal-themes/.github/workflows/dependency-canary.yml@main
+    uses: lelCodes/terminal-themes/.github/workflows/dependency-canary.yml@main
